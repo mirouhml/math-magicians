@@ -1,12 +1,12 @@
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import React from 'react';
 
 function App() {
   React.useEffect(() => {
     const prevTitle = document.title;
     document.title = 'Math Magicians';
-  
+
     return () => {
       document.title = prevTitle;
     };
