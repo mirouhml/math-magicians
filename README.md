@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Math Magicians
 
-## Available Scripts
+>This is a web page built using React.
 
-In the project directory, you can run:
+![localhost_3000_math-magicians](https://user-images.githubusercontent.com/20567503/158086038-53dce4a7-63cd-4c3c-94f7-4d2812e9f49f.png)
 
-### `npm start`
+## Built With
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Live demo
 
-### `npm test`
+You can visit live version via [link](https://mirouhml.github.io/math-magicians/).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Getting Started
 
-### `npm run build`
+To get a local copy up and running follow these simple example steps:
+- Open Terminal.
+- Change the current working directory to the location you want the cloned directory.
+- Enter the following:
+```
+$ git clone git@github.com:mirouhml/math-magicians.git.
+```
+- Press Enter to create your local clone.
+- Navigate to the cloned repository by running:
+    ```
+    $ cd math-magicians
+    ```
+- Install all dependencies using:
+    ``` 
+    $ npm install
+    ```
+- Run local server using:
+    ``` 
+    $ npm start
+    ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Prerequisites
+- GitHub
+- Git
+- React
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Author
 
-### `npm run eject`
+👤 **Mirouhml**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- GitHub: [@mirouhml](https://github.com/mirouhml)
+- LinkedIn: [ammar-hamlaoui](https://www.linkedin.com/in/ammar-hamlaoui-514909189/)
+- Twitter: [@kuronomirou](https://twitter.com/kuronomirou)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Contributors
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Contributions, issues, and feature requests are welcome!
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Feel free to check the [issues page](https://github.com/mirouhml/math-magicians/issues).
 
-## Learn More
+## Show your support
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Give a ⭐️ if you like my portfolio!
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 📝 License
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- This project is [MIT](./LICENSE) licensed.
+- This project is [creativecommons](https://creativecommons.org/licenses/by-nc/4.0/) licensed.
