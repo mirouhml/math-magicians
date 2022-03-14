@@ -4,9 +4,7 @@
 
 >This is a web page built using React.
 
-
-![localhost_8080_ (5)](https://user-images.githubusercontent.com/20567503/157920880-31b86de7-0b21-4756-af8e-4abbe4cb45f0.png)
-![localhost_8080_ (4)](https://user-images.githubusercontent.com/20567503/157920894-57d9a062-b405-4941-9540-affbb0df6d99.png)
+![localhost_3000_math-magicians](https://user-images.githubusercontent.com/20567503/158086038-53dce4a7-63cd-4c3c-94f7-4d2812e9f49f.png)
 
 ## Built With
 
