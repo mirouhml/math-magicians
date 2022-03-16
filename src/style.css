@@ -1,0 +1,39 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+  font-size: 16px;
+}
+
+.App,
+#root {
+  height: 100%;
+}
+
+.App {
+  display: flex;
+}
+
+table {
+  margin: auto;
+}
+
+td {
+  background-color: rgb(223, 223, 223);
+  width: 6rem;
+  height: 3rem;
+  padding: 0;
+  font-weight: bold;
+}
+
+.result {
+  background-color: gray;
+  text-align: right;
+  padding: 0 0.5rem;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.operator {
+  background-color: orange;
+}

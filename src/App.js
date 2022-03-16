@@ -1,27 +1,22 @@
+/* eslint-disable react/prefer-stateless-function */
+/* eslint-disable no-useless-constructor */
+
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Calculator from './components/Calculator';
 
-function App() {
-  React.useEffect(() => {
-    const prevTitle = document.title;
-    document.title = 'Math Magicians';
+class App extends React.Component {
+  constructor(props) {
+    super(props);
+  }
 
-    return () => {
-      document.title = prevTitle;
-    };
-  }, []);
-
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>
-          Math Magicians
-        </h1>
-      </header>
-    </div>
-  );
+  render() {
+    return (
+      <div className="App">
+        <Calculator />
+      </div>
+    );
+  }
 }
 
 export default App;
