@@ -42,4 +42,13 @@ button {
   height: 100%;
   width: 100%;
   border: 0;
+  cursor: pointer;
+}
+
+button:active {
+  background-color: rgb(189, 189, 189);
+}
+
+.operator:active {
+  background-color: rgb(224, 146, 0);
 }
