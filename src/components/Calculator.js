@@ -1,8 +1,8 @@
 /* eslint-disable max-len */
 
 import React from 'react';
-import calculate from '../logic/calculate'
-import operate from '../logic/operate'
+import calculate from '../logic/calculate';
+import Button from './Button';
 
 class Calculator extends React.Component {
   constructor(props) {
@@ -12,11 +12,22 @@ class Calculator extends React.Component {
       ['7', '8', '9', '×'],
       ['4', '5', '6', '-'],
       ['1', '2', '3', '+'],
+      ['0', '.', '='],
     ];
+    this.state = {};
   }
 
-  setupCalculator() {
-    return this.buttons.map((button) => <tr key={button}>{button.map((cell) => { if (cell === '÷' || cell === '×' || cell === '-' || cell === '+') return <td key={cell} className="operator">{cell}</td>; return <td key={cell}>{cell}</td>; })}</tr>);
+  componentDidMount() {
+    this.setState = ({
+      total: 0,
+      next: null,
+      operation: null,
+    });
+  }
+
+  onClick(button) {
+    const state = calculate(this.state, button);
+    this.setState = state;
   }
 
   render() {
@@ -25,14 +36,11 @@ class Calculator extends React.Component {
         <tr>
           <td className="result" colSpan="4">0</td>
         </tr>
-        {
-          this.setupCalculator()
-        }
-        <tr>
-          <td colSpan="2">0</td>
-          <td>.</td>
-          <td className="operator">=</td>
-        </tr>
+        <Button buttons={this.buttons[0]} action={this.onClick} last={false} />
+        <Button buttons={this.buttons[1]} action={this.onClick} last={false} />
+        <Button buttons={this.buttons[2]} action={this.onClick} last={false} />
+        <Button buttons={this.buttons[3]} action={this.onClick} last={false} />
+        <Button buttons={this.buttons[4]} action={this.onClick} last />
       </table>
     );
   }
