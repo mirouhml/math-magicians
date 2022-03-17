@@ -1,55 +1,46 @@
 /* eslint-disable max-len */
 
-import React from 'react';
+import React, { useState } from 'react';
 import calculate from '../logic/calculate';
 import Button from './Button';
 
-class Calculator extends React.Component {
-  constructor(props) {
-    super(props);
-    this.buttons = [
-      ['AC', '+/-', '%', '÷'],
-      ['7', '8', '9', '×'],
-      ['4', '5', '6', '-'],
-      ['1', '2', '3', '+'],
-      ['0', '.', '='],
-    ];
-    this.state = {};
-    this.onClick = this.onClick.bind(this);
-  }
+const Calculator = () => {
+  const buttons = [
+    ['AC', '+/-', '%', '÷'],
+    ['7', '8', '9', '×'],
+    ['4', '5', '6', '-'],
+    ['1', '2', '3', '+'],
+    ['0', '.', '='],
+  ];
 
-  componentDidMount() {
-    this.setState({
-      total: 0,
-      next: '',
-      operation: '',
-    });
-  }
+  const [state, setState] = useState({
+    total: null,
+    next: null,
+    operation: null,
+  });
 
-  onClick(button) {
-    const state = calculate(this.state, button);
-    this.setState(state);
-  }
+  const onClick = (button) => {
+    const result = calculate(state, button);
+    setState(result);
+  };
 
-  render() {
-    const { total, next, operation } = this.state;
-    let buffer = `${total}${operation}${next}`.replace(/null/g, '');
-    buffer = buffer.replace(/undefined/g, '');
-    return (
-      <table>
-        <tbody>
-          <tr>
-            <td className="result" colSpan="4">{buffer}</td>
-          </tr>
-          <Button buttons={this.buttons[0]} action={this.onClick} last={false} />
-          <Button buttons={this.buttons[1]} action={this.onClick} last={false} />
-          <Button buttons={this.buttons[2]} action={this.onClick} last={false} />
-          <Button buttons={this.buttons[3]} action={this.onClick} last={false} />
-          <Button buttons={this.buttons[4]} action={this.onClick} last />
-        </tbody>
-      </table>
-    );
-  }
-}
+  const { total, next, operation } = state;
+  let buffer = `${total}${operation}${next}`.replace(/null/g, '');
+  buffer = buffer.replace(/undefined/g, '');
+  return (
+    <table>
+      <tbody>
+        <tr>
+          <td className="result" colSpan="4">{buffer}</td>
+        </tr>
+        <Button buttons={buttons[0]} action={onClick} last={false} />
+        <Button buttons={buttons[1]} action={onClick} last={false} />
+        <Button buttons={buttons[2]} action={onClick} last={false} />
+        <Button buttons={buttons[3]} action={onClick} last={false} />
+        <Button buttons={buttons[4]} action={onClick} last />
+      </tbody>
+    </table>
+  );
+};
 
 export default Calculator;
