@@ -33,6 +33,7 @@ class Calculator extends React.Component {
 
   render() {
     const { total, next, operation } = this.state;
+    console.log(this.state);
     let buffer = `${total}${operation}${next}`.replace(/null/g, '');
     buffer = buffer.replace(/undefined/g, '');
     return (
