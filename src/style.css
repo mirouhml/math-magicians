@@ -134,6 +134,10 @@ button:active {
   display: flex;
 }
 
+.quotes {
+  padding: 3rem;
+}
+
 .quotes ol {
   text-align: left;
   padding: 3rem;
