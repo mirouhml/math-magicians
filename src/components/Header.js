@@ -13,7 +13,7 @@ const Header = () => (
   <Router>
     <div className="main">
       <div className="header">
-        <h1>Math Magicians</h1>
+        <h1>Math Magicians!</h1>
         <ul>
           <li>
             <Link to="/math-magicians">Home</Link>
