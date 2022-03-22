@@ -52,3 +52,30 @@ button:active {
 .operator:active {
   background-color: rgb(224, 146, 0);
 }
+
+.header {
+  width: 100%;
+  display: flex;
+  margin: 0 1rem;
+}
+
+.header h1 {
+  margin-left: 1rem;
+  flex-grow: 1;
+  text-align: left;
+}
+
+.header ul {
+  display: flex;
+  gap: 1rem;
+  list-style-type: none;
+  align-items: center;
+  margin-right: 1rem;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}

@@ -1,3 +1,5 @@
-const Calculator = () => <div><h2>Calculator</h2></div>;
+import Calculator from './Calculator';
 
-export default Calculator;
+const CalculatorPage = () => <div><Calculator /></div>;
+
+export default CalculatorPage;

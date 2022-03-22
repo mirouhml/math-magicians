@@ -3,7 +3,6 @@
 
 import React from 'react';
 import './App.css';
-import Calculator from './components/Calculator';
 import Header from './components/Header';
 
 class App extends React.Component {
@@ -15,7 +14,6 @@ class App extends React.Component {
     return (
       <div className="App">
         <Header />
-        <Calculator />
       </div>
     );
   }
