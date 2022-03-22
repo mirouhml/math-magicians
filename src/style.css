@@ -111,6 +111,7 @@ button:active {
 }
 
 .home {
+  display: flex;
   text-align: left;
-  padding: 3rem;
+  padding: 8rem 3rem 3rem 3rem;
 }
