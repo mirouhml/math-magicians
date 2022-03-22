@@ -24,8 +24,8 @@ table {
 
 td {
   background-color: rgb(223, 223, 223);
-  width: 6rem;
-  height: 3rem;
+  width: 8rem;
+  height: 4rem;
   padding: 0;
   font-weight: bold;
 }
@@ -114,4 +114,21 @@ button:active {
   display: flex;
   text-align: left;
   padding: 8rem 3rem 3rem 3rem;
+}
+
+.calculator-page {
+  display: flex;
+}
+
+.calculator-page div {
+  flex: 1;
+}
+
+.calculator-page h2 {
+  text-align: left;
+  margin: 8rem;
+}
+
+.calculator {
+  display: flex;
 }
