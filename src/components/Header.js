@@ -16,21 +16,21 @@ const Header = () => (
         <h1>Math Magicians</h1>
         <ul>
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/math-magicians">Home</Link>
           </li>
           <li>
-            <Link to="/quotes">Quote</Link>
+            <Link to="/math-magicians/quotes">Quote</Link>
           </li>
           <li>
-            <Link to="/calculator">Calculator</Link>
+            <Link to="/math-magicians/calculator">Calculator</Link>
           </li>
         </ul>
       </div>
       <hr />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/calculator" element={<CalculatorPage />} />
-        <Route path="/quotes" element={<QuotesPage />} />
+        <Route path="/math-magicians" element={<Home />} />
+        <Route path="/math-magicians/calculator" element={<CalculatorPage />} />
+        <Route path="/math-magicians/quotes" element={<QuotesPage />} />
       </Routes>
     </div>
   </Router>
