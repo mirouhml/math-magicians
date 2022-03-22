@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Route,
   Routes,
   Link,
@@ -16,21 +16,21 @@ const Header = () => (
         <h1>Math Magicians!</h1>
         <ul>
           <li>
-            <Link to="/math-magicians">Home</Link>
+            <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/math-magicians/quotes">Quote</Link>
+            <Link to="/quotes">Quote</Link>
           </li>
           <li>
-            <Link to="/math-magicians/calculator">Calculator</Link>
+            <Link to="/calculator">Calculator</Link>
           </li>
         </ul>
       </div>
       <hr />
       <Routes>
-        <Route path="/math-magicians" element={<Home />} />
-        <Route path="/math-magicians/calculator" element={<CalculatorPage />} />
-        <Route path="/math-magicians/quotes" element={<QuotesPage />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/calculator" element={<CalculatorPage />} />
+        <Route path="/quotes" element={<QuotesPage />} />
       </Routes>
     </div>
   </Router>
