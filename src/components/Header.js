@@ -13,20 +13,19 @@ const Header = () => (
   <Router>
     <div className="main">
       <div className="header">
-        <h1>Math Magicians!</h1>
+        <h1>Math Magicians</h1>
         <ul>
           <li>
             <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/quotes">Quote</Link>
+            <Link to="/quotes">Quotes</Link>
           </li>
           <li>
             <Link to="/calculator">Calculator</Link>
           </li>
         </ul>
       </div>
-      <hr />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/calculator" element={<CalculatorPage />} />
