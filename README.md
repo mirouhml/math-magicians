@@ -2,13 +2,15 @@
 
 # Math Magicians
 
->This is a web page built using React.
+>This is Math Magicians website, it has a calculator and some quotes about maths.
 
-![localhost_3000_math-magicians (1)](https://user-images.githubusercontent.com/20567503/158808688-c4f3c8d5-bd30-47ce-8f71-5825feb63313.png)
+![localhost_3000_math-magicians (2)](https://user-images.githubusercontent.com/20567503/159556805-5e59baaf-171f-4f46-983f-a85bf3abc1ee.png)
+
 
 ## Built With
 
 - React
+- CSS
 
 ## Live demo
 
