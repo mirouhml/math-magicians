@@ -121,13 +121,17 @@ button:active {
   display: flex;
 }
 
+.calculator-page img {
+  width: 50%;
+}
+
 .calculator-page div {
   flex: 1;
 }
 
 .calculator-page h2 {
-  text-align: left;
-  margin: 8rem;
+  text-align: center;
+  margin: 8rem 8rem 0 8rem;
 }
 
 .calculator {
