@@ -18,6 +18,17 @@ describe('testing calculate.js', () => {
     };
     const result = calculate(obj, '+');
     expect(result.operation).toEqual('+');
+   });
+  test('Checking for second number', () => {
+    const obj = {
+      next: null,
+      operation: '+',
+      total: '1',
+    };
+    const result = calculate(obj, '9');
+    expect(result.total).toEqual('1');
+    expect(result.next).toEqual('9');
+    expect(result.operation).toEqual('+');
   });
    
 });
