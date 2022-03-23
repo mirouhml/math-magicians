@@ -10,7 +10,7 @@ describe('Unit tests for the operate.js logic script', () => {
   });
 
   test('Multiplying two numbers: operate(3, 4, "x")', () => {
-    expect(operate(3, 4, 'x')).toEqual('12');
+    expect(operate(3, 4, '×')).toEqual('12');
   });
 
   test('Dividing two numbers: operate(16, 4, "÷")', () => {
