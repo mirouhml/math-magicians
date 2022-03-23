@@ -10,5 +10,14 @@ describe('testing calculate.js', () => {
     const result = calculate(obj, '1');
     expect(result.next).toEqual('1');
   });
+   test('Checking for operation', () => {
+    const obj = {
+      next: '1',
+      operation: null,
+      total: 0,
+    };
+    const result = calculate(obj, '+');
+    expect(result.operation).toEqual('+');
+  });
    
 });
