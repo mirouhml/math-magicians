@@ -14,7 +14,7 @@
 
 ## Live demo
 
-You can visit live version via [Github Pages](https://mirouhml.github.io/math-magicians/), [Heroku](https://mirouhml-math-magicians.herokuapp.com/) and Netlify.
+You can visit live version via [Github Pages](https://mirouhml.github.io/math-magicians/), [Heroku](https://mirouhml-math-magicians.herokuapp.com/) and [Netlify](https://enchanting-choux-fe122b.netlify.app/).
 
 ## Getting Started
 
