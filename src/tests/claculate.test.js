@@ -30,5 +30,13 @@ describe('testing calculate.js', () => {
     expect(result.next).toEqual('9');
     expect(result.operation).toEqual('+');
   });
-   
+   test('Checking for total', () => {
+    const obj = {
+      next: '9',
+      operation: '+',
+      total: '1',
+    };
+    const result = calculate(obj, '=');
+    expect(result.total).toEqual('10');
+  });
 });
