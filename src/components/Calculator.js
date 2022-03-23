@@ -28,7 +28,7 @@ const Calculator = () => {
   let buffer = `${total}${operation}${next}`.replace(/null/g, '');
   buffer = buffer.replace(/undefined/g, '');
   return (
-    <table>
+    <table className="calculator-table">
       <tbody>
         <tr>
           <td className="result" colSpan="4">{buffer}</td>
