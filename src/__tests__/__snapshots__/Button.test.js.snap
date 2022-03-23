@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button component tests: Button component renders correctly 1`] = `
+<tr>
+  <td>
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      AC
+    </button>
+  </td>
+  <td>
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      +/-
+    </button>
+  </td>
+  <td>
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      %
+    </button>
+  </td>
+  <td>
+    <button
+      className="operator"
+      onClick={[Function]}
+      type="button"
+    >
+      ÷
+    </button>
+  </td>
+</tr>
+`;
