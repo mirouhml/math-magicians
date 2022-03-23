@@ -14,7 +14,7 @@
 
 ## Live demo
 
-You can visit live version via [link](https://mirouhml.github.io/math-magicians/).
+You can visit live version via [Github Pages](https://mirouhml.github.io/math-magicians/), [Heroku](https://mirouhml-math-magicians.herokuapp.com/) and Netlify.
 
 ## Getting Started
 
